@@ -1,0 +1,21 @@
+[provider]
+cluster = "localnet"
+wallet = "/Users/pindaroso/.config/solana/id.json"
+
+[programs.localnet]
+dao = "4m1Bz3aRWatk2JiYYornJguAMmkxforEbJticn4TELZe"
+exchange = "Fy3KFXjKaA6irHp3g5YZ1pKL9a9JUwPvC32Yp4ny2epZ"
+factory = "3ed78x1nSmCw4wxm92NYWKrFhNZv185KYXLX7FxtkCRc"
+pyth = "74qVgBF8d1GuwZMiijWBhc7HusCdY3mmVYqJ4apvdKni"
+
+[programs.devnet]
+dao = "4m1Bz3aRWatk2JiYYornJguAMmkxforEbJticn4TELZe"
+exchange = "Fy3KFXjKaA6irHp3g5YZ1pKL9a9JUwPvC32Yp4ny2epZ"
+factory = "3ed78x1nSmCw4wxm92NYWKrFhNZv185KYXLX7FxtkCRc"
+pyth = "74qVgBF8d1GuwZMiijWBhc7HusCdY3mmVYqJ4apvdKni"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
